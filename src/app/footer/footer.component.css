@@ -1,0 +1,15 @@
+/* footer.component.css */
+footer {
+    background-color: #cfd3d7bb;
+    color: #333;
+    position: fixed; /* Fixed position to keep it at the bottom */
+    bottom: 0; /* Stick it to the bottom */
+    width: 100%; /* Full width */
+    text-align: center;
+  }
+  
+  /* Add padding to the container if needed */
+  .container {
+    padding: 10px;
+  }
+  

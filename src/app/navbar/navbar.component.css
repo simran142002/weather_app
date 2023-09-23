@@ -1,0 +1,27 @@
+/* navbar.component.css */
+.navbar {
+    background-color: #007bff;
+  }
+  
+  .navbar-brand {
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 18px;
+  }
+  
+  .navbar-toggler-icon {
+    color: #fff;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .navbar {
+      background-color: #0056b3;
+    }
+  }
+  

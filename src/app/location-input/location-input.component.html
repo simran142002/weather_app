@@ -1,0 +1,17 @@
+<div class="location-input-container">
+    <h2 class="location-input-title">Find Weather</h2>
+    <form (submit)="fetchWeatherData()">
+      <div class="input-group">
+        <input
+          type="text"
+          class="form-control"
+          placeholder="     Enter location"
+          [(ngModel)]="location"
+        />
+        <div class="input-group-append">
+          <button class="btn btn-primary" type="submit">Get Weather</button>
+        </div>
+      </div>
+    </form>
+  </div>
+  

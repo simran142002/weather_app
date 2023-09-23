@@ -1,0 +1,25 @@
+<div class="weather-container">
+    <div class="weather-header">
+      <h1 class="display-4">Weather in {{ weatherData.name }}, {{ weatherData.sys.country }}</h1>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Temperature</h5>
+            <p class="card-text">{{ weatherData.main.temp }}°C</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Conditions</h5>
+            <p class="card-text">{{ weatherData.weather[0].description }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <app-location-input (locationSelected)="getWeatherData('9bd47b9717fb56b186bde9c639f7d484', 'Pune')"></app-location-input>
+  </div>
+  

@@ -1,0 +1,55 @@
+/* location-input.component.css */
+.location-input-container {
+    background-color: #007bff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #fff;
+  }
+  
+  .location-input-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .form-control {
+    border-color: hsl(211, 41%, 57%);
+    border-radius: 20px;
+    /* width: 100%; */
+    margin-bottom: 20%;
+    height: 50px;
+  }
+  
+  .form-control::placeholder {
+    color: #007bff;
+  }
+  
+  .btn-primary {
+    background-color: #ced8ed;
+    border-color: #fff;
+    border-radius: 20px;
+    color: #007bff;
+    margin-left: 15px;
+    /* size: 80%; */
+    /* width: 50%; */
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+    color: #fff;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .input-group {
+      width: 100%;
+    }
+  }
+  
