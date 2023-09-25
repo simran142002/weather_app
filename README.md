@@ -1,6 +1,7 @@
 # WeatherApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.3.
+![Weather app]([https://github.com/Code4GovTech/c4gt-milestones/assets/95395832/b8409f09-388a-491f-96f4-ab5dffd1e8ee](https://github.com/Sunbird-inQuiry/editor/assets/95395832/f06bba06-fe16-429e-8098-55946e9d4947))
 
 ## Development server
 
